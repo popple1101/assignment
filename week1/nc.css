@@ -27,10 +27,6 @@ body{
     padding-right: 10px;
 }
 
-.nav2 p {
-    text-align: center;
-}
-
 .nav2_padding {
     padding-top :10px;
 }
@@ -39,8 +35,13 @@ body{
     border-right: 0.5px solid white;
 }
 
-.nav1>p:nth-child(5) {
+.nav1>p:nth-child(5) {  /* last-child */
     margin: 10px
+}
+
+.menu {
+    display: flex;
+    gap: 90px;
 }
 
 
